@@ -1,0 +1,14 @@
+//os caminhos de todos os imports de arquivos estão sendo declarado de forma absoluta partindo da pasta src, devido a "baseUrl": "src" declarado no arquivo tsconfig.json 
+@import 'styles/variaveis'; //observe que o _ do arquivo _variaveis não foi digitado no import desse arquivo, isso significa que o _ no início do nome de um arquivo é ignorado 
+@import 'styles/breakpoints';
+  
+.cardapio {
+  &__filtros {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
